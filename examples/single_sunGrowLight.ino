@@ -9,9 +9,9 @@
 #include <RTClib.h>
 #include "sunGrowLight.h"
 
-#define OUR_latitude    42.3417
-#define OUR_longtitude  -71.1004
-#define OUR_timezone    -240                     // localtime with UTC difference in minutes
+#define OUR_latitude 42.3417
+#define OUR_longtitude -71.1004
+#define OUR_timezone -240                     // localtime with UTC difference in minutes
 
 // initiate RTC module object
 RTC_DS3231 rtc;
